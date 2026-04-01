@@ -683,129 +683,137 @@ body.light-mode {
 <!-- ============================================================
      PROJECTS
 ============================================================ -->
-<div class="projects-grid">
+<!-- ============================================================
+     PROJECTS
+============================================================ -->
+<section id="projects">
 
-  <!-- CLV PROJECT -->
-  <div class="project-card reveal">
-    <div class="project-header">
-      <div class="project-icon">📊</div>
-      <span class="project-badge badge-complete">Complete</span>
-    </div>
-
-    <div class="project-title">CLV Prediction & Churn Analysis</div>
-
-    <p class="project-desc">
-      End-to-end customer analytics system using RFM features and retail data.
-      Compared multiple ML models and deployed a real-time prediction app.
-    </p>
-
-    <ul class="project-desc" style="margin-top:10px; padding-left:18px;">
-      <li>Built CLV model with Ridge Regression (R² ≈ 0.28)</li>
-      <li>Implemented churn prediction using SMOTE</li>
-      <li>Evaluated models using MAE, RMSE, R²</li>
-    </ul>
-
-    <div class="project-tech">
-      <span class="tech-tag">Python</span>
-      <span class="tech-tag">Pandas</span>
-      <span class="tech-tag">Scikit-learn</span>
-      <span class="tech-tag">XGBoost</span>
-      <span class="tech-tag">LightGBM</span>
-      <span class="tech-tag">Streamlit</span>
-    </div>
-
-    <a href="https://clvpredictor-a3zctnjmftwssst2htkv9e.streamlit.app/"
-       target="_blank"
-       class="btn-primary project-demo">
-       🚀 Live Demo
-    </a>
+  <div class="reveal">
+    <span class="section-label">// my work</span>
+    <h2 class="section-title">Projects</h2>
+    <div class="section-line"></div>
   </div>
 
-  <!-- HOSPITAL PROJECT -->
-  <div class="project-card reveal">
-    <div class="project-header">
-      <div class="project-icon">🩺</div>
-      <span class="project-badge badge-ongoing">Ongoing</span>
+  <div class="projects-grid">
+
+    <!-- CLV PROJECT -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">📊</div>
+        <span class="project-badge badge-complete">Complete</span>
+      </div>
+
+      <div class="project-title">CLV Prediction & Churn Analysis</div>
+
+      <p class="project-desc">
+        Developed an end-to-end customer analytics system using RFM features and retail datasets to predict customer lifetime value and churn behavior.
+      </p>
+
+      <ul class="project-desc" style="margin-top:10px; padding-left:18px;">
+        <li>Built CLV model using Ridge Regression (R² ≈ 0.28)</li>
+        <li>Implemented churn prediction with SMOTE for class imbalance</li>
+        <li>Evaluated performance using MAE, RMSE, and R² metrics</li>
+      </ul>
+
+      <div class="project-tech">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">Pandas</span>
+        <span class="tech-tag">Scikit-learn</span>
+        <span class="tech-tag">XGBoost</span>
+        <span class="tech-tag">LightGBM</span>
+        <span class="tech-tag">Streamlit</span>
+      </div>
+
+      <a href="https://clvpredictor-a3zctnjmftwssst2htkv9e.streamlit.app/"
+         target="_blank"
+         class="btn-primary project-demo">
+         🚀 Live Demo
+      </a>
     </div>
 
-    <div class="project-title">Hospital Management System</div>
+    <!-- HOSPITAL PROJECT -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">🩺</div>
+        <span class="project-badge badge-complete">Complete</span>
+      </div>
 
-    <p class="project-desc">
-      Full-stack web application for managing patient records and appointments
-      with admin dashboards for operational insights.
-    </p>
+      <div class="project-title">Hospital Management System</div>
 
-    <ul class="project-desc" style="margin-top:10px; padding-left:18px;">
-      <li>Patient record & appointment management</li>
-      <li>Admin dashboards for workflow optimization</li>
-      <li>Scalable and user-friendly UI design</li>
-    </ul>
+      <p class="project-desc">
+        Designing a full-stack healthcare management system to streamline patient records, appointment scheduling, and administrative workflows.
+      </p>
 
-    <div class="project-tech">
-      <span class="tech-tag">Web App</span>
-      <span class="tech-tag">UI/UX</span>
-      <span class="tech-tag">Project Mgmt</span>
-      <span class="tech-tag">Agile</span>
+      <ul class="project-desc" style="margin-top:10px; padding-left:18px;">
+        <li>Developing modules for patient and appointment management</li>
+        <li>Building admin dashboards for operational insights</li>
+        <li>Focusing on scalable and user-friendly UI design</li>
+      </ul>
+
+      <div class="project-tech">
+        <span class="tech-tag">Web Development</span>
+        <span class="tech-tag">UI/UX</span>
+        <span class="tech-tag">Agile</span>
+        <span class="tech-tag">Project Management</span>
+      </div>
     </div>
+
+    <!-- BREAST CANCER -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">🧬</div>
+        <span class="project-badge badge-complete">Complete</span>
+      </div>
+
+      <div class="project-title">Breast Cancer Prediction</div>
+
+      <p class="project-desc">
+        Built a deep learning-based image classification model to detect breast cancer from medical imaging data.
+      </p>
+
+      <ul class="project-desc" style="margin-top:10px; padding-left:18px;">
+        <li>Performed preprocessing and feature extraction</li>
+        <li>Trained supervised CNN models</li>
+        <li>Achieved ~85% classification accuracy</li>
+      </ul>
+
+      <div class="project-tech">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">Deep Learning</span>
+        <span class="tech-tag">CNN</span>
+        <span class="tech-tag">Image Processing</span>
+      </div>
+    </div>
+
+    <!-- WASTE CLASSIFICATION -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">♻️</div>
+        <span class="project-badge badge-complete">Complete</span>
+      </div>
+
+      <div class="project-title">Waste Classification (Ensemble DL)</div>
+
+      <p class="project-desc">
+        Developed an image classification system using multiple CNN architectures and ensemble techniques for improved prediction accuracy.
+      </p>
+
+      <ul class="project-desc" style="margin-top:10px; padding-left:18px;">
+        <li>Used MobileNetV2, ResNet50, and EfficientNetB0</li>
+        <li>Achieved best model accuracy of 73.75%</li>
+        <li>Improved stability with ensemble learning (72.36%)</li>
+      </ul>
+
+      <div class="project-tech">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">CNN</span>
+        <span class="tech-tag">Deep Learning</span>
+        <span class="tech-tag">Ensemble Learning</span>
+      </div>
+    </div>
+
   </div>
-
-  <!-- BREAST CANCER -->
-  <div class="project-card reveal">
-    <div class="project-header">
-      <div class="project-icon">🧬</div>
-      <span class="project-badge badge-complete">Complete</span>
-    </div>
-
-    <div class="project-title">Breast Cancer Prediction</div>
-
-    <p class="project-desc">
-      Deep learning-based image classification model for detecting breast cancer
-      from medical imaging data.
-    </p>
-
-    <ul class="project-desc" style="margin-top:10px; padding-left:18px;">
-      <li>Applied preprocessing and feature extraction</li>
-      <li>Trained supervised CNN model</li>
-      <li>Achieved ~85% classification accuracy</li>
-    </ul>
-
-    <div class="project-tech">
-      <span class="tech-tag">Python</span>
-      <span class="tech-tag">Deep Learning</span>
-      <span class="tech-tag">CNN</span>
-      <span class="tech-tag">Image Classification</span>
-    </div>
-  </div>
-
-  <!-- WASTE CLASSIFICATION -->
-  <div class="project-card reveal">
-    <div class="project-header">
-      <div class="project-icon">♻️</div>
-      <span class="project-badge badge-complete">Complete</span>
-    </div>
-
-    <div class="project-title">Waste Classification (Ensemble DL)</div>
-
-    <p class="project-desc">
-      Image classification system using multiple CNN models and ensemble learning
-      for improved prediction robustness.
-    </p>
-
-    <ul class="project-desc" style="margin-top:10px; padding-left:18px;">
-      <li>Used MobileNetV2, ResNet50, EfficientNetB0</li>
-      <li>Best model accuracy: 73.75%</li>
-      <li>Ensemble model improved stability (72.36%)</li>
-    </ul>
-
-    <div class="project-tech">
-      <span class="tech-tag">Python</span>
-      <span class="tech-tag">CNN</span>
-      <span class="tech-tag">Deep Learning</span>
-      <span class="tech-tag">Ensemble</span>
-    </div>
-  </div>
-
-</div>
+</section>
 <!-- ============================================================
      EXPERIENCE
 ============================================================ -->
