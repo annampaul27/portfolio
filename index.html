@@ -329,6 +329,18 @@ body.light-mode {
       display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 1.8rem;
     }
+    .project-demo {
+  margin-top: 1.5rem;
+  width: fit-content;
+  font-size: .9rem;
+  padding: .6rem 1.4rem;
+}
+
+/* Optional: make it POP more */
+.project-demo:hover {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0,212,184,0.35);
+}
     .project-card {
       background: var(--bg-card); border: 1px solid var(--border);
       border-radius: var(--radius-lg); padding: 2rem;
